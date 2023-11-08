@@ -9,10 +9,10 @@ $conexion=mysqli_connect($db_host,$db_usuario,$db_contra,$db_nombre);
 
 
 if(mysqli_connect_errno()){
-    echo "la conexion ha fallado";
+    echo "La conexion ta mala";
     exit();
 }
-mysqli_select_db($conexion,$db_nombre) or die ("no se encontro la base de datos");
+mysqli_select_db($conexion,$db_nombre) or die ("No se encontro la base de datos =D");
 
 //$consulta = "SELECT *FROM datospersonales";
 //$resultado = mysqli_query($conexion, $consulta);
