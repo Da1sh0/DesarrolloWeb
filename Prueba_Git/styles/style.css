@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration-line: underline;
+}
+header{
+	width: 100%;
+	height: 60px;
+}
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+header nav .nav-right-section{
+	height: auto;
+	width: auto;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+nav .nav-right-section a{
+	color: black;
+	font-weight: 300;
+}
+nav .nav-right-section .image{
+	margin-right: 30px;
+}
+nav .nav-right-section .gmail{
+	margin-right: 15PX;
+}
+nav .nav-right-section .menu img{
+	margin-right: 24px;
+	width: 16px;
+	height: 16px;
+}
+nav .nav-right-section .photo img{
+	margin-right: 18px;
+	border-radius: 100%;
+}
+nav .nav-right-section .photo img:hover{
+	box-shadow: 0 1px 10px 0 #0000007c;
+}
+nav .nav-right-section .menu img:hover{
+	box-shadow: 0 0 10px 0 #0000007c;
+	background-color: #00000033;
+}
+main{
+	 text-align: center;
+}
+main .main-google img{
+	width: 272px;
+	padding-top: 100px;
+	margin: 0 auto;
+	margin-bottom: 23px;
+}
+main .main-input{
+	width: 582px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+main .main-input-container{
+	width: 582px;
+	border-radius: 24px;
+	border: 1px solid #dfe1e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .main-input input{
+	width: 487px;
+	height: 42px;
+	border: none;
+	outline: none;
+}
+main .main-input-container:hover{
+	box-shadow: 0 1px 6px 0 #20212447;
+	border-color: #df31e500;
+}
+main .main-input .search{
+	background-image: url('https://www.buy2lucky.com/wp-content/uploads/2017/12/magnifying-glass-1976105_960_720.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+}
+main .main-input .micro{
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+main .bottons{
+	width: 530px;
+	margin: 0 auto;
+}
+main .bottons div{
+	display: inline-block;
+
+}
+main .bottons button{
+	height: 40px;
+	border: none;
+	background-color: #f8f9fa;
+	color: #494949;
+	text-align: center;
+	border-radius: 5px;
+	padding: 0 20px ;
+	margin: 0 5px;
+	font-size: 15px;
+}
+main .bottons button:hover{
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 6px 0 #20212447;
+	background-color: #f8f9fa;
+}
+main .bottons button:focus{
+	border: 1px solid #4285f4;
+}
+main .idiom div{
+	align-items: center;
+	display: inline-block;
+	margin-top: 15px;
+}
+main .idiom div a{
+	margin-left: 3px;
+	color: #1a0dab;
+}
+main .idiom div p{
+	color: #494949;
+}
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+footer .footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	font-size: 15px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #dadce0;
+}
+footer .footer ul{
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+footer .footer .footer-left{
+	justify-self: left;
+}
+footer .footer .footer-right{
+	justify-self: right;
+}
+footer .footer ul li a{
+	padding: 20px;
+	font-size: 15px;
+	margin: 10px;
+	color: #5f6368;
+}
+footer .country p{
+	background-color: #f2f2f2;
+	font-size: 17px;
+	padding: 20px;
+	margin: 0;
+	color: #5f6368;
+}
