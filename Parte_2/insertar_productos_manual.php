@@ -11,7 +11,7 @@ if(mysqli_connect_errno()){
 mysqli_select_db($conexion,$db_nombre) or die ("No se encontro la base de datos =D");
 
 $consulta = "INSERT INTO productos (ID_PRODUCTO, SECCION, PRODUCTO, ORIGEN, IMPORTADO, PRECIO) 
-VALUES('AR40','JUGUETERÍA','Castillo','Japon','VERDADERO',45000)";
+VALUES('AR43','JUGUETERÍA','Castillo','Japon','VERDADERO',45000)";
 
 $resultado = mysqli_query($conexion, $consulta);
 
