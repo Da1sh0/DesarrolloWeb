@@ -1,5 +1,5 @@
 <?php
-$mibusqueda=isset($_GET["buscar"]);
+$mibusqueda = isset($_GET["buscar"]) ? $_GET["buscar"] : null;
 $mipagina=$_SERVER["PHP_SELF"]; 
 function ejecutar_consulta($laconsulta){
    include("conexion.php");
