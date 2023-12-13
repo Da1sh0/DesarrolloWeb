@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f7fc; /* Color de fondo azul claro */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.loggin-box {
+    background-color: #ffffff; /* Color de fondo blanco */
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db; /* Color azul */
+}
+
+hr {
+    border: 1px solid #3498db; /* Color azul */
+    margin-top: 10px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3498db; /* Color azul */
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button {
+    background-color: #3498db; /* Color azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Color azul más oscuro al pasar el ratón */
+}
